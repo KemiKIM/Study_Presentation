@@ -8,9 +8,6 @@
 import Foundation
 
 
-
-
-
 // self: instance를 가르킴. ex. "aaaabbbb", 19, ...
 // Self: Type을 가르킴. ex. String, Int ...
 

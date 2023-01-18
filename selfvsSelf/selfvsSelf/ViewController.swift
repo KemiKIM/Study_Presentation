@@ -51,8 +51,8 @@ class ViewController: UIViewController {
     var uniformNumber: Int = 13
     //var iSay: String = "i like" + self.uniformNumber + self.player + self.team
     
- 
     
+
     
     
     

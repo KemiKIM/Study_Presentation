@@ -23,8 +23,8 @@ class ViewController: UIViewController {
         
         
         // (1)
-        let alert = UIAlertController(title: "제목", message: "메세지", preferredStyle: .alert)
-       // let alert = UIAlertController(title: "", message: "", preferredStyle: .)
+        let alert = UIAlertController(title: "Alert Controller", message: "사용하기", preferredStyle: .alert)
+        //let alert = UIAlertController(title: <#T##String?#>, message: <#T##String?#>, preferredStyle: UIAlertController.Style.)
        
        
         // (2)
@@ -96,10 +96,16 @@ extension ViewController {
         let alert = UIAlertController(title: title, message: message, preferredStyle: .actionSheet)
        
         // (2)
-        let cancel = UIAlertAction(title: "Cancel", style: .default)
+        let cancel = UIAlertAction(title: "Cancel", style: .cancel)
         let ok = UIAlertAction(title: "OK", style: .default, handler: { _ in
-            print("ok")
+            print("Event")
         })
+        
+        
+        
+        //let ok1 = UIAlertAction(title: "", style: .)
+        
+        
         
         // (3)
         alert.addAction(cancel)
