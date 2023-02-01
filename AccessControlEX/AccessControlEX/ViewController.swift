@@ -38,7 +38,7 @@ class ViewController: UIViewController {
     }
 
     
-    
+     
     
     // internal func ex4() {
     func ex4() {
